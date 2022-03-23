@@ -9,9 +9,9 @@
         Random random = new Random();
         int randomNumber = random.Next(minimumRandomNumber, maximumRandomNumber);
 
-        for(int i = randomNumber; i < maximumMultipleNumber; i += randomNumber)
+        for (int i = randomNumber; i < maximumMultipleNumber; i += randomNumber)
         {
-            if(i < minimumMultipleNumber)
+            if (i < minimumMultipleNumber)
             {
                 continue;
             }
@@ -20,6 +20,5 @@
                 Console.WriteLine(i);
             }
         }
-
     }
 }
